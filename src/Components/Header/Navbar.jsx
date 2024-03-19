@@ -18,8 +18,8 @@ function Navbar() {
   return (
     <header className=" h-24 flex items-center justify-center w-full">
       <nav className="flex  items-center justify-between h-full w-full px-14  ">
-        <div className="logo h-full  flex items-center  font-bold text-4xl  ">
-          <Link to="/">
+        <div className="logo mx-28 h-full  flex items-center  font-bold ">
+          <Link className="text-4xl" to="/">
             <h1 className=" text-white">
               Deepak <span className="text-slate-400">Singh</span>
             </h1>

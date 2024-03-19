@@ -15,28 +15,28 @@ function Hero() {
         className="h-[70vh] w-1/2 flex flex-col gap-4 justify-center
        "
       >
-        <h1 className="text-4xl px-14 font-bold text-white ">Hi There!</h1>
-        <h1 className="text-4xl px-16 font-bold text-white">
+        <h1 className="text-5xl my-3 mx-32 px-14 font-bold text-white "> Hi There!</h1>
+        <h1 className="text-5xl mx-28 px-16 font-bold text-slate-400">
           {" "}
           I am {typeEffect}
         </h1>
-        <p className="text-xl px-7 text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sed
-          eius nihil dolor aliquam quibusdam officiis tenetur maiores harum,
-          ratione enim repellendus sapiente numquam repudiandae!
+        <p className="w-full text-xl my-3 mx-36 px-7 text-white">
+        Hi there! I'm a passionate frontend developer with a <br /> mission to share my programming knowledge with the world.
         </p>
-        <button className=" h-14 w-32 mt-5 mx-16 rounded-xl font-medium text-2xl bg-blend-luminosity bg-slate-300 text-black animate-bounce ">
+        <button  className=" h-14 w-36 mt-8 mx-40 rounded-full font-bold text-xl bg-blend-luminosity p-2 bg-white text-[#1d2e6d] animate-bounce shadow-lg shadow-blue-500 ">
           {" "}
-          Resume{" "}
+        <a href="/src/Resume/Deepak Singh.pdf" download>
+          RESUME       ↓
+          </a>
         </button>
       </div>
       <div className=" h-full w-1/2 relative flex  items-center justify-center animate-pulse ">
-        <div className=" h-96 w-96 rounded-full blur-md   bg-blue-800 flex items-center justify-center animate-pulse">
-          <div className=" h-80 w-80 rounded-full blur-sm  flex items-center justify-center bg-blue-700">
-            <div className=" h-72 w-72  rounded-full blur-sm bg-blue-600 animate-pulse"></div>
+        <div className=" h-96 w-96 rounded-full blur-md   bg-[#4c5ac3] flex items-center justify-center animate-pulse">
+          <div className=" h-80 w-80 rounded-full blur-sm  flex items-center justify-center bg-[#4c5ac3">
+            <div className=" h-72 w-72  rounded-full blur-sm bg-[#4c5ac3] animate-pulse"></div>
           </div>
         </div>
-       
+
       </div>
     </main>
   );
