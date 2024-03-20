@@ -43,7 +43,7 @@ function Skill() {
         },
     ]
   return (
-    <div className=' h-screen w-full'>
+    <div className=' h-[80vh]  w-full'>
 <h1 className=' text-6xl text-center  tracking-widest leading-4 '>Skill</h1>
 <div className="div flex h-auto ml-24  flex-wrap w-1/2 gap-5 px-5 ">
 {
