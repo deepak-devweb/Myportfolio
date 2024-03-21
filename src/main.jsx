@@ -19,6 +19,8 @@ const routes = createBrowserRouter(
     <Route path="/" element={<Navbar />} />
     <Route path="/about" element={<About />} />
 
+
+
     </Route>
   )
 )
