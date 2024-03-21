@@ -42,8 +42,9 @@ function Projects() {
            h-[90vh]
          flex flex-wrap gap-4 items-center px-28  `}
       >
-        {projects.map((items) => (
+        {projects.map((items,index) => (
           <TemplateOfProject
+          key={index}
             img={items.img}
             tittle={items.tittle}
             details={items.detail}
