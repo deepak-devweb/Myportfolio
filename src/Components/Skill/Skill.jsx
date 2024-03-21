@@ -3,7 +3,7 @@ import DevSkill from './DevSkill'
 function Skill() {
     const skills = [
         {
-            img: "https://img.icons8.com/?size=160&id=wPohyHO_qO1a&format=png",
+            img: "",
             name: "React Js",
             percentage: "69"
         },
@@ -11,17 +11,22 @@ function Skill() {
             img: "",
             name: "Javascript",
             percentage: "75"
+        },
+        {
+            img: "",
+            name: "Node Js",
+            percentage: "75"
         }, {
             img: "",
             name: "CSS",
             percentage: "70"
         }, {
             img: "",
-            name: "HTMl",
+            name: "HTML",
             percentage: "80"
         }, {
             img: "",
-            name: "C++",
+            name: "MongoDB",
             percentage: "50"
         }, {
             img: "",
@@ -31,10 +36,10 @@ function Skill() {
             img: "",
             name: "Git & GitHub",
             percentage: "80"
-        },{
+        }, {
             img: "",
             name: "DBMS",
-            percentage: "70"
+            percentage: "50"
         },
         {
             img: "",
@@ -42,19 +47,21 @@ function Skill() {
             percentage: "60"
         },
     ]
-  return (
-    <div className=' h-[80vh]  w-full'>
-<h1 className=' text-6xl text-center  tracking-widest leading-4 '>Skill</h1>
-<div className="div flex h-auto ml-24  flex-wrap w-1/2 gap-5 px-5 ">
-{
-    skills?.map((items,index)=>{
-        return  <DevSkill key={index} logo={items.img} name={items.name} percentage={items.percentage} />
-    })
-}
-</div>
+    
+    
+    return (
+        <div className='text-white h-screen w-full'>
+            <h1 className=' text-6xl text-center  text-slate-400 tracking-widest leading-4 '>Skill</h1>
+            <div className="div flex h-auto ml-24  flex-wrap w-1/2 gap-5 px-5 ">
+                {
+                    skills?.map((items, index) => {
+                        return <DevSkill key={index} logo={items.img} name={items.name} percentage={items.percentage} />
+                    })
+                }
+            </div>
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Skill
