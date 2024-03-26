@@ -15,7 +15,7 @@ function Navbar() {
     <div className="logo mx-4 md:mx-26 h-full flex items-center font-bold">
       <Link className="text-4xl" to="/">
         <h1 className="text-white">
-          Deepak <span className="text-slate-400">Singh</span>
+        Deepak <span className="text-slate-400">Singh</span>
         </h1>
       </Link>
     </div>

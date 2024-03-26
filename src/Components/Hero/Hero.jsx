@@ -17,7 +17,7 @@ function Hero() {
         <h1 className="text-5xl my-3 mx-32 px-14 font-bold text-white ">
           Hi There!
         </h1>
-<h1>typeEffect</h1>
+<h1 className="text-nowrap font-bold  text-5xl mx-40"><span> I am </span>{typeEffect}<Cursor cursorBlinking cursorColor="white"/></h1>
         <p className="w-full text-xl my-3 mx-36 px-7 text-white">
           Hi there! I'm a passionate frontend developer with a <br /> mission to
           share my programming knowledge with the world.
