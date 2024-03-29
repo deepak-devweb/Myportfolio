@@ -23,27 +23,27 @@ function ContactMe() {
       };
     
       return (
-        <div className="max-w-96 h-96 mx-auto mt-10">
+        <div className="max-w-96 h-96 mx-auto mt-16 rounded-lg backdrop-blur-[30px] bg-[#2C318A]">
+         
           <div className="hello shadow-md rounded px-5 py-7">
-            <h2 className="text-4xl font-semibold text-center  text-white ">Contact Us</h2>
+            <h2 className="text-4xl font-semibold text-center mb-9 text-white uppercase gap-12">Contact Us</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="block">Name:</label>
-                <input type="text" name="name" value={formData.name} onChange={handleChange} className="w-full border rounded px-3 py-2" />
+               
+                <input placeholder='Name' type="text" name="name" value={formData.name} onChange={handleChange} className="w-full border rounded px-3 py-2" />
               </div>
               <div>
-                <label className="block">Email:</label>
-                <input type="email" name="email" value={formData.email} onChange={handleChange} className="w-full border rounded px-3 py-2" />
+           
+                <input placeholder='Email' type="email" name="email" value={formData.email} onChange={handleChange} className="w-full border rounded px-3 py-2" />
               </div>
               <div>
-                <label className="block">Subject:</label>
-                <input type="text" name="subject" value={formData.subject} onChange={handleChange} className="w-full border rounded px-3 py-2" />
+          
+                <input placeholder='Subject' type="text" name="subject" value={formData.subject} onChange={handleChange} className="w-full border rounded px-3 py-2" />
               </div>
               <div>
-                <label className="block">Message:</label>
-                <textarea name="message" value={formData.message} onChange={handleChange} className="w-full border rounded px-3 py-2"></textarea>
+                <textarea placeholder='Message' name="message" value={formData.message} onChange={handleChange} className="w-full border rounded px-3 py-2"></textarea>
               </div>
-              <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
+              <button type="button" className="font-bold shadow-lg shadow-blue-500/50 bg-white px-7 py-2 rounded-full mt-3 flex justify-center items-center w-full text-slate-400">Send</button>
             </form>
           </div>
         </div>
