@@ -27,7 +27,7 @@ function Hero() {
         </p>
         <button className="h-14 w-36 mt-8 mx-40 rounded-full font-bold text-xl bg-blend-luminosity p-2 bg-white text-[#1d2e6d] animate-bounce shadow-lg shadow-blue-500 ">
           {" "}
-          <a href="Myportfolio/src/Resume/DeepakSingh.pdf" download="DeepakSingh.pdf">
+          <a href="./Resume/DeepakSingh.pdf" download="DeepakSingh.pdf">
             RESUME ↓
           </a>
         </button>
